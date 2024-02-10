@@ -1,4 +1,53 @@
+/* Diagnostic Styling */
 body {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    color: black;
+  }
+  
+  /* temp styling */
+  time {
+    font-size: 4em;
+  }
+  
+  date {
+    font-size: 1.7em;
+  }
+  
+  .hours {
+  }
+  
+  .minutes {
+  }
+  
+  .seconds {
+  }
+  
+  .amOrPM {
+  }
+  
+  .month {
+    color: #507CF2;
+  }
+  
+  .dayOfMonth {
+  }
+  
+  .year {
+  }
+  
+  .dayOfWeek {
+  }
+  
+  /* dark mode */
+  .dark {
+    background: black;
+    color: white;
+  }
+  
+  #switcher {
+  }
