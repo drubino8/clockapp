@@ -40,7 +40,7 @@ const theClockApp = () => {
   ************/
   const allTheMonths = [
     "January",
-    "Febuary",
+    "February",
     "March",
     "April",
     "May",
@@ -103,6 +103,8 @@ const theClockApp = () => {
   year.textContent = gotYear;
   dayOfWeek.textContent = allTheDays[gotDayOfWeek];
   
+
+
   // GET Stuff
   const switcher = document.querySelector("#switcher");
   const body = document.querySelector("body");
