@@ -4,11 +4,22 @@ body {
     text-align: center;
     display: grid;
     justify-content: center;
-    align-content: center;
+    align-content: center; 
     height: 100vh;
     color: black;
   }
   
+  /* main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 100vh;
+  } */
+
+
   /* temp styling */
   time {
     font-size: 4rem;
