@@ -2,14 +2,14 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
-    /* display: grid;
+    display: grid;
     justify-content: center;
     align-content: center; 
-    height: 100vh; */
+    height: 100vh;
     color: black;
   }
   
-  main {
+  /* main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     flex-direction: column;
 
     height: 100vh;
-  }
+  } */
 
 
   /* temp styling */
