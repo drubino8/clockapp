@@ -11,11 +11,11 @@ body {
   
   /* temp styling */
   time {
-    font-size: 4em;
+    font-size: 4rem;
   }
   
   date {
-    font-size: 1.7em;
+    font-size: 1.7rem;
   }
   
   .hours {

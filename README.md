@@ -7,3 +7,7 @@
 ## What is it?
 
 ## How does it work?
+
+## Citations
+[Favicon.io](https://www.favicon.io)
+[Font Share](https://www.fontshare.com)
