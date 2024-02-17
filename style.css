@@ -1,64 +1,68 @@
 /* Diagnostic Styling */
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-align: center;
-    display: grid;
-    justify-content: center;
-    align-content: center; 
-    height: 100vh;
-    color: black;
-  }
-  
-  /* main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  color: black;
+}
 
-    flex-direction: column;
+/* main {
+  display: grid;
+  gap: 1em;
+  
+  grid-template-columns: repeat(2, 1fr);
+} */
 
-    height: 100vh;
-  } */
+/* temp styling */
+time {
+  font-size: 8em;
+/*   display: grid;
+  
+  grid-template-columns: repeat(4, 1fr); */
+}
 
+date {
+  font-size: 2em;
+}
 
-  /* temp styling */
-  time {
-    font-size: 4rem;
-  }
-  
-  date {
-    font-size: 1.7rem;
-  }
-  
-  .hours {
-  }
-  
-  .minutes {
-  }
-  
-  .seconds {
-  }
-  
-  .amOrPM {
-  }
-  
-  .month {
-    color: #507CF2;
-  }
-  
-  .dayOfMonth {
-  }
-  
-  .year {
-  }
-  
-  .dayOfWeek {
-  }
-  
-  /* dark mode */
-  .dark {
-    background: black;
-    color: white;
-  }
-  
-  #switcher {
-  }
+.hours {
+}
+
+.minutes {
+}
+
+.seconds {
+}
+
+.amOrPM {
+ font-size: 0.5em;
+}
+
+.month {
+  color: #507CF2;
+}
+
+.dayOfMonth {
+}
+
+.year {
+}
+
+.dayOfWeek {
+}
+
+/* dark mode */
+.dark {
+  background: black;
+  color: white;
+}
+
+#switcher {
+}
+
+.dark .month {
+  color: 7bfbde;
+}
