@@ -26,7 +26,7 @@ const theClockApp = () => {
   // console.log( theAmOrPM );
   
   // SET Stuff
-  theHours.textContent = hours;
+  theHours.textContent = hours % 12 || 12;
   theMinutes.textContent = minutes;
   theSeconds.textContent = seconds;
   amOrPM.textContent = theAmOrPm;
